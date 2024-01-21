@@ -1,0 +1,52 @@
+/* Add color var  */
+
+body{
+    height: 150vh;
+    /* Sets flexbox display and alignment for the page */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainHeader{
+    border: 1px solid red;
+    /* Centering page title content */
+    display: flex;
+    justify-content: center;
+}
+
+.gameImage{
+    width: 80%;
+    max-width: 80%;
+    min-height: 300px;
+    object-fit: cover;
+    margin: 1rem;
+    border: 2px solid red;
+}
+
+.playButton{
+    /* Use color set */
+    background-color: darkturquoise;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.mainFooter{
+    /* Use color set */
+    background-color: chartreuse;
+    border: 1px solid black;
+    width: 80%;
+    min-height: 2em;
+    /* Positions footer content */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.logoImage{
+    width: 75px;
+    height: 75px;
+    border: 2px solid red;
+    margin: 1rem;
+}
