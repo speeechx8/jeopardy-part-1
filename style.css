@@ -1,7 +1,17 @@
-/* Add color var  */
+:root {
+    /* colors */
+    --main-bg-color: rgba( 26, 96,255,1);
+    --accent-color-1: rgba(173,198,255,1);
+    --accent-color-2: rgba(127,166,255,1);
+    --accent-color-3: rgba(  0, 44,145,1);
+    --accent-color-4: rgba(  0, 34,112,1);
+
+    /* add fonts */
+}
 
 body {
     height: 150vh;
+    background-color: var(--main-bg-color);
     /* Sets flexbox display and alignment for the page */
     display: flex;
     flex-direction: column;
@@ -12,7 +22,6 @@ body {
 /* Index page styling */
 
 .mainHeader {
-    border: 1px solid red;
     /* Centering page title content */
     display: flex;
     justify-content: center;
@@ -22,21 +31,20 @@ body {
     width: 80%;
     max-width: 80%;
     min-height: 300px;
-    object-fit: cover;
+    object-fit: fill;
     margin: 1rem;
-    border: 2px solid red;
 }
 
-.playButton {
-    /* Use color set */
-    background-color: darkturquoise;
-    border: 1px solid black;
-    padding: 1rem;
+.playButton button {
+    background-color: var(--accent-color-1);
+}
+
+.playButton button:hover {
+    background-color: var(--accent-color-2);
 }
 
 .mainFooter {
-    /* Use color set */
-    background-color: chartreuse;
+    background-color: var(--accent-color-3);
     border: 1px solid black;
     width: 80%;
     min-height: 2em;
@@ -63,11 +71,15 @@ body {
 
 .catBox {
     /* Use color set */
-    background-color: aqua;
+    background-color: var(--accent-color-4);
 }
 
 .gameBox {
     border: 1px solid black;
     padding: .5rem;
     text-align: center;
+}
+
+.pointsBox {
+    background-color: var(--accent-color-2);
 }
