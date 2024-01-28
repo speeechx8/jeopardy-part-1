@@ -1,0 +1,44 @@
+
+
+/* Set grid areas */
+#answer {
+    grid-area: answer;
+}
+
+#guess {
+    grid-area: guess;
+}
+
+#pass {
+    grid-area: pass;
+}
+
+/* Set margin for player input area */
+.playerInput {
+    margin: 2rem;
+}
+
+/* Set layout for input grid */
+.playerInput > .userInput {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "answer answer"
+        "guess  pass";
+    gap: 10px;
+}
+
+.playerScore {
+    width: 100%;
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nextRoundBtn {
+    margin-inline: 10rem;
+    margin-bottom: 1rem;
+    align-self: flex-end;
+}

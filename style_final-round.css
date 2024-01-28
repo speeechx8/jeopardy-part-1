@@ -1,0 +1,28 @@
+#finalCat {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#finalCat > h3 {
+    background-color: var(--accent-color-4);
+    border: 1px solid black;
+    height: 2rem;
+    text-align: center;
+}
+
+#finalQuestion {
+    background-color: var(--accent-color-2);
+    height: minmax(5rem, auto);
+    border: 1px solid black;
+    padding: .5rem;
+    text-align: center;
+    font-size: clamp(1rem, 3vw, 3rem);
+}
+
+#finalInput > .userInput {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+}

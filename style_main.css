@@ -1,0 +1,15 @@
+.gameImage {
+    width: 80%;
+    max-width: 80%;
+    min-height: 300px;
+    object-fit: fill;
+    margin: 1rem;
+}
+
+.playButton button {
+    background-color: var(--accent-color-1);
+}
+
+.playButton button:hover {
+    background-color: var(--accent-color-2);
+}
