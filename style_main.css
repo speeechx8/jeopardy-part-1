@@ -1,3 +1,9 @@
+.mainHeader {
+    text-shadow: 
+        2px 2px 2px var(--clr-accent-3),
+        4px 4px 2px var(--clr-accent-4);
+}
+
 .gameImage {
     width: 90%;
     display: flex;
@@ -9,10 +15,15 @@
     height: auto;
 }
 
-.playButton button {
-    background-color: var(--clr-accent-0);
+.bx-play{
+    font-size: clamp(2rem, 10vw, 10rem);
+    color: var(--clr-accent-0);
+    text-shadow: 
+        2px 2px 2px var(--clr-accent-3);
 }
 
-.playButton button:hover {
-    background-color: var(--clr-accent-2);
+.bx-play:hover {
+    color: var(--clr-accent-1);
+    text-shadow: 
+        2px 2px 2px var(--clr-accent-2);
 }

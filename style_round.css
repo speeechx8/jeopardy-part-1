@@ -37,8 +37,26 @@
     justify-content: space-around;
 }
 
-.nextRoundBtn {
+.nextRound {
     margin-inline: 10rem;
     margin-bottom: 1rem;
     align-self: flex-end;
+}
+
+.nextRoundBtn {
+    background-color: var(--clr-primary-0);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 
+        inset 2px 2px 2px var(--clr-primary-2),
+        inset -2px -2px 2px var(--clr-primary-4);
+}
+
+.nextRoundBtn:hover {
+    background-color: var(--clr-primary-2);
+    color: black;
+    text-shadow: none;
+    box-shadow: 
+        inset 2px 2px 2px var(--clr-primary-0),
+        inset -2px -2px 2px var(--clr-primary-3);
 }

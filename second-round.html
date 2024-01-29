@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Round</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_input.css">
     <link rel="stylesheet" href="style_round.css">
     <link rel="stylesheet" href="style_gameGrid.css">
 </head>
@@ -63,9 +64,9 @@
     <div class="playerInput">
         <!-- Add input field and buttons -->
         <form class="userInput">
-            <input type="text" id="answer" name="answer" placeholder="Answer"/>
-            <input type="button" value="Guess" />
-            <input type="button" value="Pass" />
+            <input type="text" id="answer" class="textInput" name="answer" placeholder="Answer"/>
+            <input type="button" id="guess" class="btn answerBtn" value="Guess" />
+            <input type="button" id="pass" class="btn answerBtn" value="Pass" />
         </form>
     </div>
     <div class="playerScore">
@@ -73,8 +74,8 @@
         <h3>Player 2 Score: 0</h3>
     </div>
     <!-- Move onto next round -->
-    <div class="nextRoundBtn">
-        <a href="final-round.html"><button>Next Round</button></a>
+    <div class="nextRound">
+        <a href="final-round.html"><button class="btn nextRoundBtn">Next Round</button></a>
     </div>
     <footer>
         <!-- Jeopardy logo -->

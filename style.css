@@ -38,17 +38,6 @@ header {
     font-weight: 900;
 }
 
-.playerTurn {
-    /* Centers content inside*/
-   display: flex;
-   justify-content: center;
-   /* Sets min and max width sizes */
-   width: clamp(100px, 45%, 300px);
-   /* Sets min and max font sizes */
-   font-size: clamp(1.5rem, 1.5vw, 2.5rem);
-   font-weight: 700;
-}
-
 footer {
     background: linear-gradient(135deg, var(--clr-primary-4), var(--clr-primary-2));
     margin-top: 2rem;
