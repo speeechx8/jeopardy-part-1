@@ -1,23 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,900&display=swap');
+
 :root {
     /* colors */
-    --main-bg-color: rgba( 26, 96,255,1);
-    --accent-color-1: rgba(173,198,255,1);
-    --accent-color-2: rgba(127,166,255,1);
-    --accent-color-3: rgba(  0, 44,145,1);
-    --accent-color-4: rgba(  0, 34,112,1);
+    --clr-primary-0: rgba(  26, 99,255,1);
+    --clr-primary-1: rgba(173,199,255,1);
+    --clr-primary-2: rgba(127,168,255,1);
+    --clr-primary-3: rgba(   0, 46,145,1);
+    --clr-primary-4: rgba(   0, 36,111,1);
 
-    /* add fonts */
+    --clr-accent-0: rgba(255,169,  0,1);
+    --clr-accent-1: rgba(255,224,164,1);
+    --clr-accent-2: rgba(255,206,112,1);
+    --clr-accent-3: rgba(217,143,  0,1);
+    --clr-accent-4: rgba(167,110,  0,1);
 }
 
 body {
     height: 150vh;
-    background-color: var(--main-bg-color);
+    background-color: var(--clr-primary-1);
     /* Sets flexbox display and alignment for the page */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    row-gap: 10px;
+    font-family: 'Merriweather', serif;
 }
 
 header {
@@ -25,9 +31,11 @@ header {
     display: flex;
     justify-content: center;
     /* Sets min and max width sizes */
-    width: clamp(200px, 75%, 500px);
+    width: clamp(240px, 80%, 1280px);
     /* Sets min and max font sizes */
     font-size: clamp(2rem, 2vw, 4rem);
+    color: var(--clr-accent-0);
+    font-weight: 900;
 }
 
 .playerTurn {
@@ -38,10 +46,12 @@ header {
    width: clamp(100px, 45%, 300px);
    /* Sets min and max font sizes */
    font-size: clamp(1.5rem, 1.5vw, 2.5rem);
+   font-weight: 700;
 }
 
 footer {
-    background-color: var(--accent-color-3);
+    background: linear-gradient(135deg, var(--clr-primary-4), var(--clr-primary-2));
+    margin-top: 2rem;
     border: 1px solid black;
     padding: auto;
     width: clamp(200px, 50%, 80%);
@@ -50,11 +60,11 @@ footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    font-weight: 300;
 }
 
 .logoImage {
     width: 75px;
     height: 75px;
-    border: 2px solid red;
     margin: 1rem;
 }
