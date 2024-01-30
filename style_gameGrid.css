@@ -14,9 +14,11 @@
 }
 
 .gameBox {
-    /* border: 1px solid black; */
+    border-radius: 5px;
     padding: .5rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pointsBox {

@@ -19,54 +19,54 @@
     <div class="gameGrid">
         <!-- First grid column -->
         <div class="catBox catA gameBox">POTENT POTABLES</div>
-        <div class="pointsBox pointsA1 gameBox">400</div>
-        <div class="pointsBox pointsA2 gameBox">800</div>
-        <div class="pointsBox pointsA3 gameBox">1200</div>
-        <div class="pointsBox pointsA4 gameBox">1600</div>
-        <div class="pointsBox pointsA5 gameBox">2000</div>
+        <div class="pointsBox pointsA2 gameBox onClick">800</div>
+        <div class="pointsBox pointsA1 gameBox onClick">400</div>
+        <div class="pointsBox pointsA3 gameBox onClick">1200</div>
+        <div class="pointsBox pointsA4 gameBox onClick">1600</div>
+        <div class="pointsBox pointsA5 gameBox onClick">2000</div>
         <!-- Second grid column -->
         <div class="catBox catB gameBox">LETTERS THAT BEGIN WITH "G"</div>
-        <div class="pointsBox pointsB1 gameBox">400</div>
-        <div class="pointsBox pointsB2 gameBox">800</div>
-        <div class="pointsBox pointsB3 gameBox">1200</div>
-        <div class="pointsBox pointsB4 gameBox">1600</div>
-        <div class="pointsBox pointsB5 gameBox">2000</div>
+        <div class="pointsBox pointsB1 gameBox onClick">400</div>
+        <div class="pointsBox pointsB2 gameBox onClick">800</div>
+        <div class="pointsBox pointsB3 gameBox onClick">1200</div>
+        <div class="pointsBox pointsB4 gameBox onClick">1600</div>
+        <div class="pointsBox pointsB5 gameBox onClick">2000</div>
         <!-- Third grid column -->
         <div class="catBox catC gameBox">WHO READS</div>
-        <div class="pointsBox pointsC1 gameBox">400</div>
-        <div class="pointsBox pointsC2 gameBox">800</div>
-        <div class="pointsBox pointsC3 gameBox">1200</div>
-        <div class="pointsBox pointsC4 gameBox">1600</div>
-        <div class="pointsBox pointsC5 gameBox">2000</div>
+        <div class="pointsBox pointsC1 gameBox onClick">400</div>
+        <div class="pointsBox pointsC2 gameBox onClick">800</div>
+        <div class="pointsBox pointsC3 gameBox onClick">1200</div>
+        <div class="pointsBox pointsC4 gameBox onClick">1600</div>
+        <div class="pointsBox pointsC5 gameBox onClick">2000</div>
         <!-- Fourth grid column -->
         <div class="catBox catD gameBox">LET IT SNOW</div>
-        <div class="pointsBox pointsD1 gameBox">400</div>
-        <div class="pointsBox pointsD2 gameBox">800</div>
-        <div class="pointsBox pointsD3 gameBox">1200</div>
-        <div class="pointsBox pointsD4 gameBox">1600</div>
-        <div class="pointsBox pointsD5 gameBox">2000</div>
+        <div class="pointsBox pointsD1 gameBox onClick">400</div>
+        <div class="pointsBox pointsD2 gameBox onClick">800</div>
+        <div class="pointsBox pointsD3 gameBox onClick">1200</div>
+        <div class="pointsBox pointsD4 gameBox onClick">1600</div>
+        <div class="pointsBox pointsD5 gameBox onClick">2000</div>
         <!-- Fifth grid column -->
         <div class="catBox catE gameBox">STATE YOUR NAME</div>
-        <div class="pointsBox pointsE1 gameBox">400</div>
-        <div class="pointsBox pointsE2 gameBox">800</div>
-        <div class="pointsBox pointsE3 gameBox">1200</div>
-        <div class="pointsBox pointsE4 gameBox">1600</div>
-        <div class="pointsBox pointsE5 gameBox">2000</div>
+        <div class="pointsBox pointsE1 gameBox onClick">400</div>
+        <div class="pointsBox pointsE2 gameBox onClick">800</div>
+        <div class="pointsBox pointsE3 gameBox onClick">1200</div>
+        <div class="pointsBox pointsE4 gameBox onClick">1600</div>
+        <div class="pointsBox pointsE5 gameBox onClick">2000</div>
         <!-- Sixth grid column -->
         <div class="catBox catF gameBox">FAMOUS OPRAHS</div>
-        <div class="pointsBox pointsF1 gameBox">400</div>
-        <div class="pointsBox pointsF2 gameBox">800</div>
-        <div class="pointsBox pointsF3 gameBox">1200</div>
-        <div class="pointsBox pointsF4 gameBox">1600</div>
-        <div class="pointsBox pointsF5 gameBox">2000</div>
+        <div class="pointsBox pointsF1 gameBox onClick">400</div>
+        <div class="pointsBox pointsF2 gameBox onClick">800</div>
+        <div class="pointsBox pointsF3 gameBox onClick">1200</div>
+        <div class="pointsBox pointsF4 gameBox onClick">1600</div>
+        <div class="pointsBox pointsF5 gameBox onClick">2000</div>
     </div>
     <!-- Where player interacts with game -->
     <div class="playerInput">
         <!-- Add input field and buttons -->
         <form class="userInput">
             <input type="text" id="answer" class="textInput" name="answer" placeholder="Answer"/>
-            <input type="button" id="guess" class="btn answerBtn" value="Guess" />
-            <input type="button" id="pass" class="btn answerBtn" value="Pass" />
+            <input type="button" id="guess" class="btn answerBtn onClick" value="Guess" />
+            <input type="button" id="pass" class="btn answerBtn onClick" value="Pass" />
         </form>
     </div>
     <div class="playerScore">
@@ -75,7 +75,7 @@
     </div>
     <!-- Move onto next round -->
     <div class="nextRound">
-        <a href="final-round.html"><button class="btn nextRoundBtn">Next Round</button></a>
+        <a href="final-round.html"><button class="btn nextRoundBtn onClick">Next Round</button></a>
     </div>
     <footer>
         <!-- Jeopardy logo -->

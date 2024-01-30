@@ -41,3 +41,11 @@
         inset 2px 2px 2px var(--clr-accent-0),
         inset -2px -2px 2px var(--clr-accent-3);
 }
+
+.onClick {
+    transition: transform 0.2s;
+}
+
+.onClick:active {
+    transform: scale(0.95);
+}
