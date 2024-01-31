@@ -4,15 +4,31 @@
         4px 4px 2px var(--clr-accent-4);
 }
 
-.gameImage {
+.container {
     width: 90%;
+}
+
+.gameImage {
+    display: inline;
+    position: relative;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
 }
 
 .gameImage > img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+}
+
+.animLogo {
+    position: absolute;
+    color: var(--clr-accent-0);
+    /* Sets min and max font sizes */
+    font-size: clamp(2rem, 2vw, 4rem);
+    text-shadow: 
+        2px 2px 2px var(--clr-accent-3),
+        4px 4px 2px var(--clr-accent-4);
 }
 
 .bx-play{
@@ -22,7 +38,7 @@
         2px 2px 2px var(--clr-accent-3);
 }
 
-.bx-play:hover {
+.bx-play:hover, .bx-play:focus {
     color: var(--clr-accent-1);
     text-shadow: 
         2px 2px 2px var(--clr-accent-2);

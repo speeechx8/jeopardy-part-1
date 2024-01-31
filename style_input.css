@@ -33,7 +33,7 @@
         inset -2px -2px 2px var(--clr-accent-4);
 }
 
-.answerBtn:hover {
+.answerBtn:hover, .answerBtn:focus {
     background-color: var(--clr-accent-2);
     color: black;
     text-shadow: none;

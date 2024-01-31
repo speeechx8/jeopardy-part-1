@@ -1,0 +1,40 @@
+@keyframes moveX {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 90%;
+    }
+}
+
+@keyframes moveY {
+    from {
+        top: 0%;
+    }
+    to {
+        top: 90%;
+    }
+}
+
+@keyframes adjustScale {
+    from {
+        transform:scale(25%, 25%);
+    }
+    to {
+        transform:scale(150%, 150%);
+    }
+}
+
+@keyframes changeColor {
+    from {
+        color: var(--clr-accent-0);;
+    }
+    to {
+        color: var(--clr-primary-0);;
+    }
+}
+
+.anim_logoMovement {
+    /* animation: anim_logoBounce infinite; */
+    animation: moveX 2.5s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate, adjustScale 1.5s linear infinite alternate, changeColor 1s linear infinite alternate;
+}

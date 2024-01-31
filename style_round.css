@@ -1,4 +1,7 @@
-
+.playerTurn {
+    /* Sets min and max font sizes */
+    font-size: clamp(.75rem, 2vw, 2rem);
+}
 
 /* Set grid areas */
 #answer {
@@ -52,7 +55,7 @@
         inset -2px -2px 2px var(--clr-primary-4);
 }
 
-.nextRoundBtn:hover {
+.nextRoundBtn:hover, .nextRoundBtn:focus {
     background-color: var(--clr-primary-2);
     color: black;
     text-shadow: none;

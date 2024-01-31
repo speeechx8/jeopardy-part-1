@@ -16,12 +16,11 @@
 }
 
 body {
-    height: 150vh;
     background-color: var(--clr-primary-1);
     /* Sets flexbox display and alignment for the page */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-family: 'Merriweather', serif;
 }
@@ -33,7 +32,7 @@ header {
     /* Sets min and max width sizes */
     width: clamp(240px, 80%, 1280px);
     /* Sets min and max font sizes */
-    font-size: clamp(2rem, 2vw, 4rem);
+    font-size: clamp(1rem, 2vw, 4rem);
     color: var(--clr-accent-0);
     font-weight: 900;
 }
@@ -43,8 +42,8 @@ footer {
     margin-top: 2rem;
     border: 1px solid black;
     padding: auto;
-    width: clamp(200px, 50%, 80%);
-    height: minmax(150px, auto);
+    width: 80%;
+    height: auto;
     /* Positions footer content */
     display: flex;
     flex-flow: row wrap;
